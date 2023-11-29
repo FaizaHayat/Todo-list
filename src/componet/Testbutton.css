@@ -1,0 +1,112 @@
+.List-item {
+   width: 70%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background: linear-gradient(rgb(58, 58, 58), rgb(0, 0, 55));
+    margin-top: 100px;
+    margin-left: 15%;
+    font-style: italic;
+    padding: 49px;
+   
+  }
+  label{
+    color: #ffffff;
+    
+   
+  }
+  .input{
+    margin-left: 46px;
+  }
+  h1 {
+    text-align: center;
+    color: #f5f5f5;
+    font-weight: 800;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .task-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    
+    margin-bottom: 20px;
+  }
+  
+  .task-input input {
+    flex: 1;
+    font-size: 12px;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+  }
+  
+  .button {
+  align-items: center;
+
+    padding: 8px;
+    width: 100px;
+    background-color: #008f7c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+  .task-list {
+    width: 100%;
+ 
+   
+  }
+  
+  .task-list th, .task-list td {
+   color: #ffffff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .task-list th {
+   
+    color: #ffffff;
+    background-color: rgb(74, 74, 74);
+  }
+  
+  .task-list button {
+    padding: 8px;
+    width: 75px;
+    background-color: #910000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list button + button {
+    margin-left: 5px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .List-item {
+      width: 90%;
+      margin-left: 5%;
+      padding: 20px;
+    }
+  
+    .task-list th,
+    .task-list td {
+      font-size: 14px;
+    }
+  
+    .button {
+      width: 80px;
+    }
+  
+    .task-list button {
+      width: 60px;
+    }}
